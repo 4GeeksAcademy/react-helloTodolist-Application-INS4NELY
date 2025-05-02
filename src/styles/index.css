@@ -37,3 +37,14 @@
     width: 100%;
     height: 3rem;
 }
+
+.taskContainer .btnStyle {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.taskContainer:hover .btnStyle {
+    visibility: visible;
+    opacity: 1;
+}

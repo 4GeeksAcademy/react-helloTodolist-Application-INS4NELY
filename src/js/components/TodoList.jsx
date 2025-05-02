@@ -27,7 +27,7 @@ const Tasks = () => {
                 </div>
                 <div className="boxTaskStyle">
                     {listTask.map(({ id, task }) => (
-                        <div className="border-top my-2 container" id={id} key={id}>
+                        <div className="taskContainer border-top my-2 container" id={id} key={id}>
                             <div className="d-flex justify-content-between align-items-center m-3">
                                 <p className="m-0">{task}</p>
                                 <button className="btnStyle" onClick={() => deleteTask(id)}>
